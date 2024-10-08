@@ -6,7 +6,7 @@ films = []
 
 API_URL='https://7012.deeppavlov.ai/model'
 
-API_TOKEN = '7720214175:AAEll4eDK4yKwFeYL-qjH5ss7mm_cJJbKkY'
+API_TOKEN = 'secret_code'
 bot = telebot.TeleBot(API_TOKEN)
 
 @bot.message_handler(commands=['start']) #decorator
